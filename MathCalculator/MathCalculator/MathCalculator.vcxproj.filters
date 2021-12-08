@@ -39,6 +39,9 @@
     <ClCompile Include="MainAlgebraModule.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Matrix3x3.cpp">
+      <Filter>Исходные файлы\MathModules</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="exit.h">
@@ -49,6 +52,9 @@
     </ClInclude>
     <ClInclude Include="MainAlgebraModule.h">
       <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.h">
+      <Filter>Файлы заголовков\AlgebraHeaders</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
