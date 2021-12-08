@@ -1,5 +1,8 @@
 ﻿#include <iostream>
 #include <Windows.h>
+#include "exit.h"
+#include "MainMathModule.h"
+#include "MainAlgebraModule.h"
 using namespace std;
 
 int main()
@@ -9,22 +12,24 @@ int main()
     printf("Здравствуйте!\n");
     Sleep(1000);
     while (NotExit) {
+		printf("\033c");
         printf("Выберите один из доступных вариантов:\n");
-        printf("1. Линейная Алгебра\n");
-        printf("2. Математический анализ\n");
+		printf("1. Математический анализ\n");
+		printf("2. Линейная Алгебра\n");
         printf("3. Выход\n");
         cin >> UserOption;
 		switch (UserOption)
 		{
 		case 1:
-			printf("Редирект на матан\n"); //ссылка на модуль матана
+			MainMathModule();
 			break;
 		case 2:
-			printf("Редирект на алгебру\n"); //ссылка на модуль алгебры
+			MainAlgebraModule();
 			break;
 		case 3:
-			printf("Выход....\n"); // ссылка на модуль выхода
-			NotExit = false;
+			printf("\033c");
+			printf("Выход....");
+			exit(NotExit);
 			break;
 		default:
 			printf("Ошибка, повторите ввод!\n");
