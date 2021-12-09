@@ -30,9 +30,6 @@
     <ClCompile Include="Index.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="exit.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="MainMathModule.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
@@ -40,7 +37,13 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Matrix3x3.cpp">
+      <Filter>Исходные файлы\AlgebraModules</Filter>
+    </ClCompile>
+    <ClCompile Include="Diskriminant.cpp">
       <Filter>Исходные файлы\MathModules</Filter>
+    </ClCompile>
+    <ClCompile Include="exit.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -55,6 +58,9 @@
     </ClInclude>
     <ClInclude Include="Matrix3x3.h">
       <Filter>Файлы заголовков\AlgebraHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Diskriminant.h">
+      <Filter>Файлы заголовков\MathHeaders</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

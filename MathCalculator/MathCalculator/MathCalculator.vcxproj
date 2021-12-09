@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Diskriminant.cpp" />
     <ClCompile Include="exit.cpp" />
     <ClCompile Include="Index.cpp" />
     <ClCompile Include="MainAlgebraModule.cpp" />
@@ -146,6 +147,7 @@
     <ClCompile Include="Matrix3x3.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Diskriminant.h" />
     <ClInclude Include="exit.h" />
     <ClInclude Include="MainAlgebraModule.h" />
     <ClInclude Include="MainMathModule.h" />
