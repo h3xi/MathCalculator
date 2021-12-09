@@ -1,6 +1,6 @@
 #include <iostream>
 #include "MainMathModule.h"
-#include "Diskriminant.h"
+#include "Discriminant.h"
 using namespace std;
 
 
@@ -18,7 +18,7 @@ void MainMathModule()
 		switch (UserChoise)
 		{
 		case 1: 
-			Diskriminant();
+			Discriminant();
 		case 2:
 			exited = false;
 			break;

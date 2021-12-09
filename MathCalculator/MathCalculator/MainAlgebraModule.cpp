@@ -1,9 +1,9 @@
 #include <iostream>
 #include "MainAlgebraModule.h"
 #include "Matrix3x3.h"
-#include "VektorDistance.h"
-#include "VektorAddition.h"
-#include "VektorSubstraction.h"
+#include "VectorDistance.h"
+#include "VectorAddition.h"
+#include "VectorSubstraction.h"
 using namespace std;
 
 void MainAlgebraModule()
@@ -24,11 +24,11 @@ void MainAlgebraModule()
 		case 1:
 			Matrix3x3();
 		case 2:
-			VektorDistance();
+			VectorDistance();
 		case 3:
-			VektorAddition();
+			VectorAddition();
 		case 4:
-			VektorSubstraction();
+			VectorSubstraction();
 		case 5:
 			exited = false;
 			break;

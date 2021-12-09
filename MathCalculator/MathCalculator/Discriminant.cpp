@@ -3,10 +3,10 @@
 #include "MainMathModule.h"
 using namespace std;
 
-void Diskriminant()
+void Discriminant()
 {
     setlocale(LC_CTYPE, "RU");
-    double a,b,c,x;
+    double a,b,c,x1,x2;
    
     printf("Введите значение a: ");
     cin >> a;
@@ -16,10 +16,10 @@ void Diskriminant()
     cin >> c;
     if ((b * b - 4 * a * c) >= 0) //Если дискриминант больше или равен 0
     {
-        x = (-1 * b + sqrt(b * b - 4 * a * c)) / (2 * a);
-        cout << "Первый корень равен " << x << endl;
-        x = (-1 * b - sqrt(b * b - 4 * a * c)) / (2 * a);
-        cout << "Второй корень равен " << x << endl;
+        x1 = (-1 * b + sqrt(b * b - 4 * a * c)) / (2 * a);
+        printf("Первый корень равен %f\n", x1);
+        x2 = (-1 * b - sqrt(b * b - 4 * a * c)) / (2 * a);
+        printf("Второй корень равен %f\n", x2);
     }
     else
     {

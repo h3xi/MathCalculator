@@ -2,4 +2,4 @@
 #include <iostream>
 
 
-void VektorSubstraction();
+void VectorAddition();

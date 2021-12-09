@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void VektorAddition()
+void VectorSubstraction()
 {
     setlocale(LC_CTYPE, "RU");
     int x, y, z, x1, y1, z1, x2, y2, z2;
@@ -22,9 +22,9 @@ void VektorAddition()
     cin >> y2;
     printf("Введите значение z2: ");
     cin >> z2;
-    x = x1 + x2;
-    y = y1 + y2;
-    z = z1 + z2;
+    x = x1 - x2;
+    y = y1 - y2;
+    z = z1 - z2;
     printf("Расстояние между точками равно (%d, %d,%d)\n", x, y, z);
     system("pause");
     MainAlgebraModule();

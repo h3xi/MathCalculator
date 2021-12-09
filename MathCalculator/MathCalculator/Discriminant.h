@@ -2,5 +2,5 @@
 #include <iostream>
 
 
-void Diskriminant();
+void Discriminant();
 
