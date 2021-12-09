@@ -45,6 +45,9 @@
     <ClCompile Include="exit.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="VektorDistance.cpp">
+      <Filter>Исходные файлы\AlgebraModules</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="exit.h">
@@ -61,6 +64,9 @@
     </ClInclude>
     <ClInclude Include="Diskriminant.h">
       <Filter>Файлы заголовков\MathHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="VektorDistance.h">
+      <Filter>Файлы заголовков\AlgebraHeaders</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
