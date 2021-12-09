@@ -48,6 +48,12 @@
     <ClCompile Include="VektorDistance.cpp">
       <Filter>Исходные файлы\AlgebraModules</Filter>
     </ClCompile>
+    <ClCompile Include="VektorAddition.cpp">
+      <Filter>Исходные файлы\AlgebraModules</Filter>
+    </ClCompile>
+    <ClCompile Include="VektorSubstraction.cpp">
+      <Filter>Исходные файлы\AlgebraModules</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="exit.h">
@@ -66,6 +72,12 @@
       <Filter>Файлы заголовков\MathHeaders</Filter>
     </ClInclude>
     <ClInclude Include="VektorDistance.h">
+      <Filter>Файлы заголовков\AlgebraHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="VektorAddition.h">
+      <Filter>Файлы заголовков\AlgebraHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="VektorSubstraction.h">
       <Filter>Файлы заголовков\AlgebraHeaders</Filter>
     </ClInclude>
   </ItemGroup>

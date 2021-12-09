@@ -2,6 +2,8 @@
 #include "MainAlgebraModule.h"
 #include "Matrix3x3.h"
 #include "VektorDistance.h"
+#include "VektorAddition.h"
+#include "VektorSubstraction.h"
 using namespace std;
 
 void MainAlgebraModule()
@@ -13,7 +15,9 @@ void MainAlgebraModule()
 		printf("Добро пожаловать в модуль Линейной Алгебры!\nВыберите один из доступных пунктов:\n");
 		printf("1.Посчитать определитель матрицы 3*3\n");
 		printf("2.Нахождение вектора\n");
-		printf("3.Выход\n");
+		printf("3.Сложение векторов\n");
+		printf("4.Вычитание векторов\n");
+		printf("5.Выход\n");
 		cin >> UserChoise;
 		switch (UserChoise)
 		{
@@ -22,6 +26,10 @@ void MainAlgebraModule()
 		case 2:
 			VektorDistance();
 		case 3:
+			VektorAddition();
+		case 4:
+			VektorSubstraction();
+		case 5:
 			exited = false;
 			break;
 		}
