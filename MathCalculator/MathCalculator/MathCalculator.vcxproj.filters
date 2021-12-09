@@ -39,13 +39,19 @@
     <ClCompile Include="Matrix3x3.cpp">
       <Filter>Исходные файлы\AlgebraModules</Filter>
     </ClCompile>
-    <ClCompile Include="Diskriminant.cpp">
+    <ClCompile Include="Discriminant.cpp">
       <Filter>Исходные файлы\MathModules</Filter>
     </ClCompile>
     <ClCompile Include="exit.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="VektorDistance.cpp">
+    <ClCompile Include="VectorDistance.cpp">
+      <Filter>Исходные файлы\AlgebraModules</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorAddition.cpp">
+      <Filter>Исходные файлы\AlgebraModules</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorSubstraction.cpp">
       <Filter>Исходные файлы\AlgebraModules</Filter>
     </ClCompile>
   </ItemGroup>
@@ -62,10 +68,16 @@
     <ClInclude Include="Matrix3x3.h">
       <Filter>Файлы заголовков\AlgebraHeaders</Filter>
     </ClInclude>
-    <ClInclude Include="Diskriminant.h">
+    <ClInclude Include="Discriminant.h">
       <Filter>Файлы заголовков\MathHeaders</Filter>
     </ClInclude>
-    <ClInclude Include="VektorDistance.h">
+    <ClInclude Include="VectorDistance.h">
+      <Filter>Файлы заголовков\AlgebraHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorAddition.h">
+      <Filter>Файлы заголовков\AlgebraHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorSubstraction.h">
       <Filter>Файлы заголовков\AlgebraHeaders</Filter>
     </ClInclude>
   </ItemGroup>

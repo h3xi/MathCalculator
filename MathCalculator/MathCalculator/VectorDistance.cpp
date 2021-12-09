@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void VektorDistance()
+void VectorDistance()
 {
     setlocale(LC_CTYPE, "RU");
     int A,B,C,D,A1,B1;
