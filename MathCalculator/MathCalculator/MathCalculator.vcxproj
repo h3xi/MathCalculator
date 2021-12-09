@@ -145,6 +145,7 @@
     <ClCompile Include="MainAlgebraModule.cpp" />
     <ClCompile Include="MainMathModule.cpp" />
     <ClCompile Include="Matrix3x3.cpp" />
+    <ClCompile Include="VektorDistance.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Diskriminant.h" />
@@ -152,6 +153,7 @@
     <ClInclude Include="MainAlgebraModule.h" />
     <ClInclude Include="MainMathModule.h" />
     <ClInclude Include="Matrix3x3.h" />
+    <ClInclude Include="VektorDistance.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
