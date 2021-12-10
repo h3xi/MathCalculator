@@ -8,19 +8,19 @@ using namespace std;
 void VectorDistance()
 {
     setlocale(LC_CTYPE, "RU");
-    int A,B,C,D,A1,B1;
+    int x1,y1,x2,y2,x,y;
     
-    printf("Введите значение A: ");
-    cin >> A;
-    printf("Введите значение B: ");
-    cin >> B;
-    printf("Введите значение C: ");
-    cin >> C;
-    printf("Введите значение D: ");
-    cin >> D;
-    A1 = abs(C - A);
-    B1 = abs(D - B);
-        printf("Расстояние между точками равно (%d, %d)\n", A1, B1);
+    printf("Введите значение x1: ");
+    cin >> x1;
+    printf("Введите значение y1: ");
+    cin >> y1;
+    printf("Введите значение x2: ");
+    cin >> x2;
+    printf("Введите значение y2: ");
+    cin >> y2;
+    x = abs(x2 - x1);
+    y = abs(y2 - y1);
+        printf("Расстояние между точками равно (%d, %d)\n", x, y);
         system("pause");
         MainAlgebraModule();
 

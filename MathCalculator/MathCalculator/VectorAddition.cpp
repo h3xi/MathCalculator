@@ -25,7 +25,7 @@ void VectorAddition()
     x = x1 + x2;
     y = y1 + y2;
     z = z1 + z2;
-    printf("–ассто€ние между точками равно (%d, %d,%d)\n", x, y, z);
+    printf("ѕри сложении двух векторов получаем новый вектор с координатами (%d, %d,%d)\n", x, y, z);
     system("pause");
     MainAlgebraModule();
 }
