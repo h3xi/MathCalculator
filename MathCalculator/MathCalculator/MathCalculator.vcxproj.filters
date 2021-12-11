@@ -42,6 +42,9 @@
     <ClCompile Include="Matrix3x3.cpp">
       <Filter>Исходные файлы\MathModules</Filter>
     </ClCompile>
+    <ClCompile Include="Factorial.cpp">
+      <Filter>Исходные файлы\AlgebraModules</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="exit.h">
@@ -54,6 +57,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Matrix3x3.h">
+      <Filter>Файлы заголовков\AlgebraHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Factorial.h">
       <Filter>Файлы заголовков\AlgebraHeaders</Filter>
     </ClInclude>
   </ItemGroup>
