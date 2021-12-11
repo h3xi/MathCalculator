@@ -4,6 +4,7 @@
 #include "VectorDistance.h"
 #include "VectorAddition.h"
 #include "VectorSubstraction.h"
+#include "Factorial.h"
 using namespace std;
 
 void MainAlgebraModule()
@@ -17,7 +18,8 @@ void MainAlgebraModule()
 		printf("2.Нахождение вектора\n");
 		printf("3.Сложение векторов\n");
 		printf("4.Вычитание векторов\n");
-		printf("5.Выход\n");
+		printf("5.Посчитать факториал числа\n");
+		printf("6.Выход\n");
 		cin >> UserChoise;
 		switch (UserChoise)
 		{
@@ -30,6 +32,8 @@ void MainAlgebraModule()
 		case 4:
 			VectorSubstraction();
 		case 5:
+			Factorial();
+		case 6:
 			exited = false;
 			break;
 		}
