@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Discriminant.cpp" />
     <ClCompile Include="exit.cpp" />
+    <ClCompile Include="Factorial.cpp" />
     <ClCompile Include="Index.cpp" />
     <ClCompile Include="MainAlgebraModule.cpp" />
     <ClCompile Include="MainMathModule.cpp" />
@@ -152,6 +153,7 @@
   <ItemGroup>
     <ClInclude Include="Discriminant.h" />
     <ClInclude Include="exit.h" />
+    <ClInclude Include="Factorial.h" />
     <ClInclude Include="MainAlgebraModule.h" />
     <ClInclude Include="MainMathModule.h" />
     <ClInclude Include="Matrix3x3.h" />

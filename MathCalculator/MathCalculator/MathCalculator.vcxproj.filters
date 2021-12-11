@@ -54,6 +54,9 @@
     <ClCompile Include="VectorSubstraction.cpp">
       <Filter>Исходные файлы\AlgebraModules</Filter>
     </ClCompile>
+    <ClCompile Include="Factorial.cpp">
+      <Filter>Исходные файлы\AlgebraModules</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="exit.h">
@@ -78,6 +81,9 @@
       <Filter>Файлы заголовков\AlgebraHeaders</Filter>
     </ClInclude>
     <ClInclude Include="VectorSubstraction.h">
+      <Filter>Файлы заголовков\AlgebraHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Factorial.h">
       <Filter>Файлы заголовков\AlgebraHeaders</Filter>
     </ClInclude>
   </ItemGroup>
