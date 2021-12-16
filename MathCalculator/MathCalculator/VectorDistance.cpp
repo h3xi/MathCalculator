@@ -12,6 +12,9 @@ void VectorDistance()
     
     printf("Введите значение x1: ");
     cin >> x1;
+    if (static_cast<int>(x1) > 57 || static_cast<int>(x1) < 48) {
+        printf("ОШИБКА");
+    }
     printf("Введите значение y1: ");
     cin >> y1;
     printf("Введите значение x2: ");

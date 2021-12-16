@@ -3,6 +3,7 @@
 #include "MainMathModule.h"
 using namespace std;
 
+
 void Discriminant()
 {
     setlocale(LC_CTYPE, "RU");
@@ -25,6 +26,7 @@ void Discriminant()
     {
         printf("Дискриминант меньше 0, корни невещественные!\n");
     }
+  
     system("pause");
     MainMathModule();
 }
