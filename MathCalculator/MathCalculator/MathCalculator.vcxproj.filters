@@ -42,9 +42,6 @@
     <ClCompile Include="Discriminant.cpp">
       <Filter>Исходные файлы\MathModules</Filter>
     </ClCompile>
-    <ClCompile Include="exit.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="VectorDistance.cpp">
       <Filter>Исходные файлы\AlgebraModules</Filter>
     </ClCompile>
@@ -56,6 +53,9 @@
     </ClCompile>
     <ClCompile Include="Factorial.cpp">
       <Filter>Исходные файлы\AlgebraModules</Filter>
+    </ClCompile>
+    <ClCompile Include="exit.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
