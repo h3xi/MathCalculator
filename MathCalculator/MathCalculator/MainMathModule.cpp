@@ -19,10 +19,16 @@ void MainMathModule()
 		{
 		case 1: 
 			Discriminant();
+			break;
 		case 2:
 			exited = false;
 			break;
+		default:
+			printf("Выбран неверный вариант меню! Повторите ввод\n");
+			system("pause");
+			break;
 		}
+
 	}
 
 }

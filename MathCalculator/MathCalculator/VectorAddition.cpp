@@ -2,72 +2,67 @@
 #include <cmath>
 #include  "MainAlgebraModule.h"
 #include "Windows.h"
-
+#include <stdlib.h>
+#define MAX_SIZE 500
 using namespace std;
 
-void VectorAddition()
+
+int VectorAddition()
 {
 
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
     setlocale(LC_CTYPE, "RU");
-    char x, y, z, x1, y1, z1, x2, y2, z2;
+    int x, y, z;
+    char x1[MAX_SIZE], y1[MAX_SIZE], z1[MAX_SIZE], x2[MAX_SIZE], y2[MAX_SIZE], z2[MAX_SIZE];
 
     printf("Введите значение x1: ");
     cin >> x1;
-    if (static_cast<int>(x1) > 57 || static_cast<int>(x1) < 48) {
+    if (static_cast<int>(x1[0]) > 57 || static_cast<int>(x1[0]) < 48) {
         printf("Ошибка - введен неправильный символ...\n");
         system("pause");
-        MainAlgebraModule();
-        
+        return 0;
     }
     printf("Введите значение y1: ");
     cin >> y1;
-    if (static_cast<int>(y1) > 57 || static_cast<int>(y1) < 48) {
-        printf("ОШИБКА");
-        MainAlgebraModule();
-
+    if (static_cast<int>(y1[0]) > 57 || static_cast<int>(y1[0]) < 48) {
+        printf("Ошибка - введен неправильный символ...\n");
+        system("pause");
+        return 0;
     }
     printf("Введите значение z1: ");
     cin >> z1;
-    if (static_cast<int>(z1) > 57 || static_cast<int>(z1) < 48) {
-        printf("ОШИБКА");
-        MainAlgebraModule();
-
+    if (static_cast<int>(z1[0]) > 57 || static_cast<int>(z1[0]) < 48) {
+        printf("Ошибка - введен неправильный символ...\n");
+        system("pause");
+        return 0;
     }
     printf("Введите значение x2: ");
     cin >> x2;
-    if (static_cast<int>(x2) > 57 || static_cast<int>(x2) < 48) {
-        printf("ОШИБКА");
+    if (static_cast<int>(x2[0]) > 57 || static_cast<int>(x2[0]) < 48) {
+        printf("Ошибка - введен неправильный символ...\n");
         system("pause");
-        MainAlgebraModule();
-
+        return 0;
     }
     printf("Введите значение y2: ");
     cin >> y2;
-    if (static_cast<int>(y2) > 57 || static_cast<int>(y2) < 48) {
-        printf("ОШИБКА");
-        MainAlgebraModule();
-
+    if (static_cast<int>(y2[0]) > 57 || static_cast<int>(y2[0]) < 48) {
+        printf("Ошибка - введен неправильный символ...\n");
+        system("pause");
+        return 0;
     }
     printf("Введите значение z2: ");
     cin >> z2;
-    if (static_cast<int>(z2) > 57 || static_cast<int>(z2) < 48) {
-        printf("ОШИБКА");
-        VectorAddition();
-
+    if (static_cast<int>(z2[0]) > 57 || static_cast<int>(z2[0]) < 48) {
+        printf("Ошибка - введен неправильный символ...\n");
+        system("pause");
+        return 0;
     }
-    x1 -= '0';
-    x2 -= '0';
-    y1 -= '0';
-    y2 -= '0';
-    z1 -= '0';
-    z2 -= '0';
-    x = x1 + x2;
-    y = y1 + y2;
-    z = z1 + z2;
+    x = atoi(x1) + atoi(x2);
+    y = atoi(y1) + atoi(y2);
+    z = atoi(z1) + atoi(z2);
     printf("При сложении двух векторов получаем новый вектор с координатами (%d, %d,%d)\n", x, y, z);
     
     system("pause");
-    MainAlgebraModule();
+    return 0;
 }

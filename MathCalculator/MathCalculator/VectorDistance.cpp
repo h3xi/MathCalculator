@@ -1,32 +1,50 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
 #include <cmath>
+#include "Windows.h"
 #include  "MainAlgebraModule.h"
-
+#define MAX_SIZE 500
 using namespace std;
 
-void VectorDistance()
+int VectorDistance()
 {
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
     setlocale(LC_CTYPE, "RU");
-    int x1,y1,x2,y2,x,y;
+    char x1[MAX_SIZE], y1[MAX_SIZE], x2[MAX_SIZE], y2[MAX_SIZE];
+    int x, y;
     
     printf("Введите значение x1: ");
     cin >> x1;
-    if (static_cast<int>(x1) > 57 || static_cast<int>(x1) < 48) {
-        printf("ОШИБКА");
+    if (static_cast<int>(x1[0]) > 57 || static_cast<int>(x1[0]) < 48) {
+        printf("Ошибка - введен неправильный символ...\n");
+        system("pause");
+        return 0;
     }
     printf("Введите значение y1: ");
     cin >> y1;
+    if (static_cast<int>(y1[0]) > 57 || static_cast<int>(y1[0]) < 48) {
+        printf("Ошибка - введен неправильный символ...\n");
+        system("pause");
+        return 0;
+    }
     printf("Введите значение x2: ");
     cin >> x2;
+    if (static_cast<int>(x2[0]) > 57 || static_cast<int>(x2[0]) < 48) {
+        printf("Ошибка - введен неправильный символ...\n");
+        system("pause");
+        return 0;
+    }
     printf("Введите значение y2: ");
     cin >> y2;
-    x = abs(x2 - x1);
-    y = abs(y2 - y1);
+    if (static_cast<int>(y2[0]) > 57 || static_cast<int>(y2[0]) < 48) {
+        printf("Ошибка - введен неправильный символ...\n");
+        system("pause");
+        return 0;
+    }
+    x = abs(atoi(x2) - atoi(x1));
+    y = abs(atoi(y2) - atoi(y1));
         printf("Расстояние между точками равно (%d, %d)\n", x, y);
         system("pause");
-        MainAlgebraModule();
-
-    
+        return 0;
 }
 

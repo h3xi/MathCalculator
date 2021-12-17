@@ -25,17 +25,27 @@ void MainAlgebraModule()
 		{
 		case 1:
 			Matrix3x3();
+			break;
 		case 2:
 			VectorDistance();
+			break;
 		case 3:
 			VectorAddition();
+			break;
 		case 4:
 			VectorSubstraction();
+			break;
 		case 5:
 			Factorial();
+			break;
 		case 6:
 			exited = false;
 			break;
+		default:
+			printf("Выбран неверный вариант меню! Повторите ввод\n");
+			system("pause");
+			break;
 		}
+		
 	}
 }

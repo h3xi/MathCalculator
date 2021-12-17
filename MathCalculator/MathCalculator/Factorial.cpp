@@ -1,24 +1,26 @@
 #include <iostream>
 #include "MainAlgebraModule.h"
 #include <Windows.h>
+#define MAX_SIZE 500
 using namespace std;
-void Factorial() {
+int Factorial() {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-	unsigned char number;
+	char number[MAX_SIZE];
 	int i, result = 1;
 	printf("Введите число, факториал которого будет вычислен: ");
 	cin >> number;
-	if (number >= '0' && number <= '9') {
-		number = number - '0'; //преобразование из char в int
-		for (i = 1; i <= number; i++) {
-			result = result * i;
-		      }
-		printf("Результат: %d\n", result);
-		}
+	if (static_cast<int>(number[0]) > 57 || static_cast<int>(number[0]) < 48) {
+		printf("Ошибка - введен неправильный символ...\n");
+		system("pause");
+		return 0;
+	}
 	else { 
-		printf("Введен неверный символ...\n");
+		for (i = 1; i <= atoi(number); i++) {
+			result = result * i;
+		}
+		printf("Результат: %d\n", result);
 	}
 	system("pause");
-	MainAlgebraModule();
-	}
+	return 0;
+}

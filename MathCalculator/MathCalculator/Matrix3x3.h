@@ -1,3 +1,3 @@
 #pragma once
 
-void Matrix3x3();
+int Matrix3x3();

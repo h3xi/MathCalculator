@@ -1,25 +1,44 @@
 ﻿#include <iostream>
 #include <cmath>
 #include "MainMathModule.h"
+#define MAX_SIZE 500
 using namespace std;
 
 
-void Discriminant()
+int Discriminant()
 {
     setlocale(LC_CTYPE, "RU");
-    double a,b,c,x1,x2;
+    char a[MAX_SIZE], b[MAX_SIZE], c[MAX_SIZE];
+    double x1, x2;
    
     printf("Введите значение a: ");
     cin >> a;
+    if (static_cast<int>(a[0]) > 57 || static_cast<int>(a[0]) < 48) {
+        printf("Ошибка - введен неправильный символ...\n");
+        system("pause");
+        return 0;
+    }
     printf("Введите значение b: ");
     cin >> b;
+    if (static_cast<int>(b[0]) > 57 || static_cast<int>(b[0]) < 48) {
+        printf("Ошибка - введен неправильный символ...\n");
+        system("pause");
+        return 0;
+    }
     printf("Введите значение c: ");
     cin >> c;
-    if ((b * b - 4 * a * c) >= 0) //Если дискриминант больше или равен 0
+    if (static_cast<int>(c[0]) > 57 || static_cast<int>(c[0]) < 48) {
+        printf("Ошибка - введен неправильный символ...\n");
+        system("pause");
+        return 0;
+    }
+    
+
+    if ((atof(b) * atof(b) - 4 * atof(a) * atof(c)) >= 0) //Если дискриминант больше или равен 0
     {
-        x1 = (-1 * b + sqrt(b * b - 4 * a * c)) / (2 * a);
+        x1 = (-1 * atof(b) + sqrt(atof(b) * atof(b) - 4 * atof(a) * atof(c))) / (2 * atof(a));
         printf("Первый корень равен %f\n", x1);
-        x2 = (-1 * b - sqrt(b * b - 4 * a * c)) / (2 * a);
+        x2 = (-1 * atof(b) - sqrt(atof(b) * atof(b) - 4 * atof(a) * atof(c))) / (2 * atof(a));
         printf("Второй корень равен %f\n", x2);
     }
     else
@@ -28,5 +47,5 @@ void Discriminant()
     }
   
     system("pause");
-    MainMathModule();
+    return 0;
 }
