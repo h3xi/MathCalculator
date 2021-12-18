@@ -5,6 +5,7 @@
 #include "VectorAddition.h"
 #include "VectorSubstraction.h"
 #include "Factorial.h"
+#include "MatrixSummation.h"
 using namespace std;
 
 void MainAlgebraModule()
@@ -19,7 +20,8 @@ void MainAlgebraModule()
 		printf("3.Сложение векторов\n");
 		printf("4.Вычитание векторов\n");
 		printf("5.Посчитать факториал числа\n");
-		printf("6.Выход\n");
+		printf("6.Сложение матриц\n");
+		printf("7.Выход\n");
 		cin >> UserChoise;
 		switch (UserChoise)
 		{
@@ -38,7 +40,10 @@ void MainAlgebraModule()
 		case 5:
 			Factorial();
 			break;
-		case 6:
+		case 6: 
+			MatrixSummation();
+			break;
+		case 7:
 			exited = false;
 			break;
 		default:

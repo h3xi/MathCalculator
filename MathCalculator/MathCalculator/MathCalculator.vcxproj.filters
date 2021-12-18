@@ -57,6 +57,9 @@
     <ClCompile Include="exit.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="MatrixSummation.cpp">
+      <Filter>Исходные файлы\AlgebraModules</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="exit.h">
@@ -84,6 +87,9 @@
       <Filter>Файлы заголовков\AlgebraHeaders</Filter>
     </ClInclude>
     <ClInclude Include="Factorial.h">
+      <Filter>Файлы заголовков\AlgebraHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixSummation.h">
       <Filter>Файлы заголовков\AlgebraHeaders</Filter>
     </ClInclude>
   </ItemGroup>
