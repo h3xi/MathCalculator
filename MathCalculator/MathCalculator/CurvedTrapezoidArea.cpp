@@ -8,8 +8,6 @@ int CurvedTrapezoidArea() {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 	int UserOption, NotExit = true;
-	printf("Вы находитесь в модуле вычисления площади криволинейной трапеции...\n");
-	Sleep(1000);
 	while (NotExit) {
 		printf("\033c");
 		printf("Выберите функцию, которая будет ограничивать криволинейную трапецию: \n");
@@ -36,7 +34,8 @@ int CurvedTrapezoidArea() {
 			return 0;
 			break;
 		default:
-			printf("Ошибка, повторите ввод!\n");
+			printf("Выбран неверный вариант меню! Повторите ввод\n");
+			system("pause");
 			break;
 		}
 	}
