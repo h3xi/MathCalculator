@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CurvedTrapezoidArea.cpp" />
     <ClCompile Include="Discriminant.cpp" />
     <ClCompile Include="exit.cpp" />
     <ClCompile Include="Factorial.cpp" />
@@ -146,17 +147,20 @@
     <ClCompile Include="MainAlgebraModule.cpp" />
     <ClCompile Include="MainMathModule.cpp" />
     <ClCompile Include="Matrix3x3.cpp" />
+    <ClCompile Include="MatrixSummation.cpp" />
     <ClCompile Include="VectorAddition.cpp" />
     <ClCompile Include="VectorDistance.cpp" />
     <ClCompile Include="VectorSubstraction.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CurvedTrapezoidArea.h" />
     <ClInclude Include="Discriminant.h" />
     <ClInclude Include="exit.h" />
     <ClInclude Include="Factorial.h" />
     <ClInclude Include="MainAlgebraModule.h" />
     <ClInclude Include="MainMathModule.h" />
     <ClInclude Include="Matrix3x3.h" />
+    <ClInclude Include="MatrixSummation.h" />
     <ClInclude Include="VectorAddition.h" />
     <ClInclude Include="VectorDistance.h" />
     <ClInclude Include="VectorSubstraction.h" />
