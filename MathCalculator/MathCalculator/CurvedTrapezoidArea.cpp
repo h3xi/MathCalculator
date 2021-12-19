@@ -8,7 +8,9 @@ int CurvedTrapezoidArea() {
 	SetConsoleOutputCP(1251);
 	int UserOption, NotExit = true;
 	printf("Вы находитесь в модуле вычисления площади криволинейной трапеции...\n");
+	Sleep(1000);
 	while (NotExit) {
+		printf("\033c");
 		printf("Выберите функцию, которая будет ограничивать криволинейную трапецию: \n");
 		printf("1. Синус в кубе\n");
 		printf("2. Косинус в кубе\n");
@@ -30,9 +32,7 @@ int CurvedTrapezoidArea() {
 			XSquared();
 			break;
 		case 5:
-			printf("\033c");
-			printf("Выход....");
-			exit(NotExit);
+			return 0;
 			break;
 		default:
 			printf("Ошибка, повторите ввод!\n");
@@ -44,6 +44,7 @@ int CurvedTrapezoidArea() {
 }
 	int SinCubeFunction() {
 		double a, b, h, S = 0;
+		printf("\033c");
 		printf("Введите границы отрезков: \n");
 		cin >> a;
 		cin >> b;
@@ -67,6 +68,7 @@ int CurvedTrapezoidArea() {
 
 	int CosCubeFunction() {
 		double a, b, h, S = 0;
+		printf("\033c");
 		printf("Введите границы отрезков: \n");
 		cin >> a;
 		cin	>> b;
@@ -89,6 +91,7 @@ int CurvedTrapezoidArea() {
 	}
 	int ExpFunction() {
 		double a, b, h, S = 0;
+		printf("\033c");
 		printf("Введите границы отрезков: \n");
 		cin >> a;
 		cin >> b;
@@ -111,6 +114,7 @@ int CurvedTrapezoidArea() {
 	}
 	int XSquared() {
 		double a, b, h, S = 0;
+		printf("\033c");
 		printf("Введите границы отрезков: \n");
 		cin >> a;
 		cin >> b;
