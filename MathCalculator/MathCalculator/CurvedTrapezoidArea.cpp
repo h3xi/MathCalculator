@@ -2,6 +2,7 @@
 #include "CurvedTrapezoidArea.h"
 #include <Windows.h>
 #define MAX_PARTS 200
+#define MAX_SIZE 500
 using namespace std;
 int CurvedTrapezoidArea() {
 	SetConsoleCP(1251);
@@ -43,11 +44,28 @@ int CurvedTrapezoidArea() {
 	return 0;
 }
 	int SinCubeFunction() {
+		char ElementValue[MAX_SIZE];
 		double a, b, h, S = 0;
 		printf("\033c");
 		printf("Введите границы отрезков: \n");
-		cin >> a;
-		cin >> b;
+		cin >> ElementValue;
+		if (static_cast<int>(ElementValue[0]) > 57 || static_cast<int>(ElementValue[0]) < 48) {
+			printf("Ошибка - введен неправильный символ....\n");
+			system("pause");
+			return 0;
+		}
+		else {
+			a = atoi(ElementValue);
+		}
+		cin >> ElementValue;
+		if (static_cast<int>(ElementValue[0]) > 57 || static_cast<int>(ElementValue[0]) < 48) {
+			printf("Ошибка - введен неправильный символ....\n");
+			system("pause");
+			return 0;
+		}
+		else {
+			b = atoi(ElementValue);
+		}
 		h = abs((a - b) / MAX_PARTS);
 		double x = b;
 		S = S + h * ((pow(sin(x), 3)) + (pow(sin(x), 3) + h)) / 2;
@@ -67,11 +85,28 @@ int CurvedTrapezoidArea() {
 	}
 
 	int CosCubeFunction() {
+		char ElementValue[MAX_SIZE];
 		double a, b, h, S = 0;
 		printf("\033c");
 		printf("Введите границы отрезков: \n");
-		cin >> a;
-		cin	>> b;
+		cin >> ElementValue;
+		if (static_cast<int>(ElementValue[0]) > 57 || static_cast<int>(ElementValue[0]) < 48) {
+			printf("Ошибка - введен неправильный символ....\n");
+			system("pause");
+			return 0;
+		}
+		else {
+			a = atoi(ElementValue);
+		}
+		cin	>> ElementValue;
+		if (static_cast<int>(ElementValue[0]) > 57 || static_cast<int>(ElementValue[0]) < 48) {
+			printf("Ошибка - введен неправильный символ....\n");
+			system("pause");
+			return 0;
+		}
+		else {
+			b = atoi(ElementValue);
+		}
 		h = abs((a - b) / MAX_PARTS);
 		double x = b;
 		S = S + h * ((pow(cos(x), 3)) + (pow(cos(x), 3) + h)) / 2;
@@ -90,11 +125,28 @@ int CurvedTrapezoidArea() {
 		return 0;
 	}
 	int ExpFunction() {
+		char ElementValue[MAX_SIZE];
 		double a, b, h, S = 0;
 		printf("\033c");
 		printf("Введите границы отрезков: \n");
-		cin >> a;
-		cin >> b;
+		cin >> ElementValue;
+		if (static_cast<int>(ElementValue[0]) > 57 || static_cast<int>(ElementValue[0]) < 48) {
+			printf("Ошибка - введен неправильный символ....\n");
+			system("pause");
+			return 0;
+		}
+		else {
+			a = atoi(ElementValue);
+		}
+		cin >> ElementValue;
+		if (static_cast<int>(ElementValue[0]) > 57 || static_cast<int>(ElementValue[0]) < 48) {
+			printf("Ошибка - введен неправильный символ....\n");
+			system("pause");
+			return 0;
+		}
+		else {
+			b = atoi(ElementValue);
+		}
 		h = abs((a - b) / MAX_PARTS);
 		double x = b;
 		S = S + h * (exp(x) + ((exp(x) + h))) / 2;
@@ -113,11 +165,28 @@ int CurvedTrapezoidArea() {
 		return 0;
 	}
 	int XSquared() {
+		char ElementValue[MAX_SIZE];
 		double a, b, h, S = 0;
 		printf("\033c");
 		printf("Введите границы отрезков: \n");
-		cin >> a;
-		cin >> b;
+		cin >> ElementValue;
+		if (static_cast<int>(ElementValue[0]) > 57 || static_cast<int>(ElementValue[0]) < 48) {
+			printf("Ошибка - введен неправильный символ....\n");
+			system("pause");
+			return 0;
+		}
+		else {
+			a = atoi(ElementValue);
+		}
+		cin >> ElementValue;
+		if (static_cast<int>(ElementValue[0]) > 57 || static_cast<int>(ElementValue[0]) < 48) {
+			printf("Ошибка - введен неправильный символ....\n");
+			system("pause");
+			return 0;
+		}
+		else {
+			b = atoi(ElementValue);
+		}
 		h = abs((a - b) / MAX_PARTS);
 		double x = b;
 		S = S + h * (pow(x, 2) + ((pow(x, 2) + h))) / 2;
