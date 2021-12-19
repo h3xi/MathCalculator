@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CurvedTrapezoidArea.cpp" />
     <ClCompile Include="Discriminant.cpp" />
     <ClCompile Include="exit.cpp" />
     <ClCompile Include="Factorial.cpp" />
@@ -152,6 +153,7 @@
     <ClCompile Include="VectorSubstraction.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CurvedTrapezoidArea.h" />
     <ClInclude Include="Discriminant.h" />
     <ClInclude Include="exit.h" />
     <ClInclude Include="Factorial.h" />

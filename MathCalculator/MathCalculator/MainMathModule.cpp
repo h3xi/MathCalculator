@@ -1,6 +1,7 @@
 #include <iostream>
 #include "MainMathModule.h"
 #include "Discriminant.h"
+#include "CurvedTrapezoidArea.h"
 using namespace std;
 
 
@@ -13,7 +14,8 @@ void MainMathModule()
 		printf("\033c");
 		printf("Добро пожаловать в модуль МатАнализа!\nВыберите один из доступных пунктов:\n");
 		printf("1.Нахождение дискриминанта\n");
-		printf("2.Выход\n");
+		printf("2.Вычисление площади криволейной трапеции\n");
+		printf("3.Выход\n");
 		cin >> UserChoise;
 		switch (UserChoise)
 		{
@@ -21,6 +23,9 @@ void MainMathModule()
 			Discriminant();
 			break;
 		case 2:
+			CurvedTrapezoidArea();
+			break;
+		case 3:
 			exited = false;
 			break;
 		default:

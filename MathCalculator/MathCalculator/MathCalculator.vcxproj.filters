@@ -60,6 +60,9 @@
     <ClCompile Include="MatrixSummation.cpp">
       <Filter>Исходные файлы\AlgebraModules</Filter>
     </ClCompile>
+    <ClCompile Include="CurvedTrapezoidArea.cpp">
+      <Filter>Исходные файлы\MathModules</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="exit.h">
@@ -91,6 +94,9 @@
     </ClInclude>
     <ClInclude Include="MatrixSummation.h">
       <Filter>Файлы заголовков\AlgebraHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CurvedTrapezoidArea.h">
+      <Filter>Файлы заголовков\MathHeaders</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
