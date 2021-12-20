@@ -2,6 +2,8 @@
 #include "MainMathModule.h"
 #include "Discriminant.h"
 #include "CurvedTrapezoidArea.h"
+#include "NLogarithm.h"
+#include "Logarithm10.h"
 using namespace std;
 
 
@@ -15,7 +17,9 @@ void MainMathModule()
 		printf("Добро пожаловать в модуль МатАнализа!\nВыберите один из доступных пунктов:\n");
 		printf("1.Нахождение дискриминанта\n");
 		printf("2.Вычисление площади криволейной трапеции\n");
-		printf("3.Выход\n");
+		printf("3.Вычисление натурального логарифма числа\n");
+		printf("4.Вычисление десятичного логарифма числа\n");
+		printf("5.Выход\n");
 		cin >> UserChoise;
 		switch (UserChoise)
 		{
@@ -26,6 +30,12 @@ void MainMathModule()
 			CurvedTrapezoidArea();
 			break;
 		case 3:
+			NLogarithm();
+			break;
+		case 4:
+			Logarithm10();
+			break;
+		case 5:
 			exited = false;
 			break;
 		default:

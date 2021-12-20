@@ -63,6 +63,12 @@
     <ClCompile Include="CurvedTrapezoidArea.cpp">
       <Filter>Исходные файлы\MathModules</Filter>
     </ClCompile>
+    <ClCompile Include="NLogarithm.cpp">
+      <Filter>Исходные файлы\MathModules</Filter>
+    </ClCompile>
+    <ClCompile Include="Logarithm10.cpp">
+      <Filter>Исходные файлы\MathModules</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="exit.h">
@@ -96,6 +102,12 @@
       <Filter>Файлы заголовков\AlgebraHeaders</Filter>
     </ClInclude>
     <ClInclude Include="CurvedTrapezoidArea.h">
+      <Filter>Файлы заголовков\MathHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="NLogarithm.h">
+      <Filter>Файлы заголовков\MathHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Logarithm10.h">
       <Filter>Файлы заголовков\MathHeaders</Filter>
     </ClInclude>
   </ItemGroup>

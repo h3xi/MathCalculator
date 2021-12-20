@@ -11,42 +11,42 @@ int VectorSubstraction()
      int x, y, z;
     printf("¬ведите значение x1: ");
     cin >> x1;
-    if (static_cast<int>(x1[0]) > 57 || static_cast<int>(x1[0]) < 48) {
+    if (static_cast<int>(x1[0]) > 57 && static_cast<int>(x1[0]) != 45 || static_cast<int>(x1[0]) < 48 && static_cast<int>(x1[0]) != 45) {
         printf("ќшибка - введен неправильный символ...\n");
         system("pause");
         return 0;
     }
     printf("¬ведите значение y1: ");
     cin >> y1;
-    if (static_cast<int>(y1[0]) > 57 || static_cast<int>(y1[0]) < 48) {
+    if (static_cast<int>(y1[0]) > 57 && static_cast<int>(y1[0]) != 45 || static_cast<int>(y1[0]) < 48 && static_cast<int>(y1[0]) != 45) {
         printf("ќшибка - введен неправильный символ...\n");
         system("pause");
         return 0;
     }
     printf("¬ведите значение z1: ");
     cin >> z1;
-    if (static_cast<int>(z1[0]) > 57 || static_cast<int>(z1[0]) < 48) {
+    if (static_cast<int>(z1[0]) > 57 && static_cast<int>(z1[0]) != 45 || static_cast<int>(z1[0]) < 48 && static_cast<int>(z1[0]) != 45) {
         printf("ќшибка - введен неправильный символ...\n");
         system("pause");
         return 0;
     }
     printf("¬ведите значение x2: ");
     cin >> x2;
-    if (static_cast<int>(x2[0]) > 57 || static_cast<int>(x2[0]) < 48) {
+    if (static_cast<int>(x2[0]) > 57 && static_cast<int>(x2[0]) != 45 || static_cast<int>(x2[0]) < 48 && static_cast<int>(x2[0]) != 45) {
         printf("ќшибка - введен неправильный символ...\n");
         system("pause");
         return 0;
     }
     printf("¬ведите значение y2: ");
     cin >> y2;
-    if (static_cast<int>(y2[0]) > 57 || static_cast<int>(y2[0]) < 48) {
+    if (static_cast<int>(y2[0]) > 57 && static_cast<int>(y2[0]) != 45 || static_cast<int>(y2[0]) < 48 && static_cast<int>(y2[0]) != 45) {
         printf("ќшибка - введен неправильный символ...\n");
         system("pause");
         return 0;
     }
     printf("¬ведите значение z2: ");
     cin >> z2;
-    if (static_cast<int>(z2[0]) > 57 || static_cast<int>(z2[0]) < 48) {
+    if (static_cast<int>(z2[0]) > 57 && static_cast<int>(z2[0]) != 45 || static_cast<int>(z2[0]) < 48 && static_cast<int>(z2[0]) != 45) {
         printf("ќшибка - введен неправильный символ...\n");
         system("pause");
         return 0;

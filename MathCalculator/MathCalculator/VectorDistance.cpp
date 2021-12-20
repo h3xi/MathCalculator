@@ -15,28 +15,28 @@ int VectorDistance()
     
     printf("Введите значение x1: ");
     cin >> x1;
-    if (static_cast<int>(x1[0]) > 57 || static_cast<int>(x1[0]) < 48) {
+    if (static_cast<int>(x1[0]) > 57 && static_cast<int>(x1[0]) != 45 || static_cast<int>(x1[0]) < 48 && static_cast<int>(x1[0]) != 45) {
         printf("Ошибка - введен неправильный символ...\n");
         system("pause");
         return 0;
     }
     printf("Введите значение y1: ");
     cin >> y1;
-    if (static_cast<int>(y1[0]) > 57 || static_cast<int>(y1[0]) < 48) {
+    if (static_cast<int>(y1[0]) > 57 && static_cast<int>(y1[0]) != 45 || static_cast<int>(y1[0]) < 48 && static_cast<int>(y1[0]) != 45) {
         printf("Ошибка - введен неправильный символ...\n");
         system("pause");
         return 0;
     }
     printf("Введите значение x2: ");
     cin >> x2;
-    if (static_cast<int>(x2[0]) > 57 || static_cast<int>(x2[0]) < 48) {
+    if (static_cast<int>(x2[0]) > 57 && static_cast<int>(x2[0]) != 45 || static_cast<int>(x2[0]) < 48 && static_cast<int>(x2[0]) != 45) {
         printf("Ошибка - введен неправильный символ...\n");
         system("pause");
         return 0;
     }
     printf("Введите значение y2: ");
     cin >> y2;
-    if (static_cast<int>(y2[0]) > 57 || static_cast<int>(y2[0]) < 48) {
+    if (static_cast<int>(y2[0]) > 57 && static_cast<int>(y2[0]) != 45 || static_cast<int>(y2[0]) < 48 && static_cast<int>(y2[0]) != 45) {
         printf("Ошибка - введен неправильный символ...\n");
         system("pause");
         return 0;

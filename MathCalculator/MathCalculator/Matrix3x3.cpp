@@ -15,7 +15,7 @@ int Matrix3x3()
 		for (j = 0; j < n; j++){
 			printf("Ёлемент [%d][%d] = ", i, j);
 			cin >> ElementValue;
-			if (static_cast<int>(ElementValue[0]) > 57 || static_cast<int>(ElementValue[0]) < 48) {
+			if (static_cast<int>(ElementValue[0]) > 57 && static_cast<int>(ElementValue[0]) != 45 || static_cast<int>(ElementValue[0]) < 48 && static_cast<int>(ElementValue[0]) != 45) {
 				printf("ќшибка - введен неправильный символ....\n");
 				system("pause");
 				return 0;

@@ -148,6 +148,8 @@
     <ClCompile Include="MainMathModule.cpp" />
     <ClCompile Include="Matrix3x3.cpp" />
     <ClCompile Include="MatrixSummation.cpp" />
+    <ClCompile Include="NLogarithm.cpp" />
+    <ClCompile Include="Logarithm10.cpp" />
     <ClCompile Include="VectorAddition.cpp" />
     <ClCompile Include="VectorDistance.cpp" />
     <ClCompile Include="VectorSubstraction.cpp" />
@@ -157,6 +159,8 @@
     <ClInclude Include="Discriminant.h" />
     <ClInclude Include="exit.h" />
     <ClInclude Include="Factorial.h" />
+    <ClInclude Include="Logarithm10.h" />
+    <ClInclude Include="NLogarithm.h" />
     <ClInclude Include="MainAlgebraModule.h" />
     <ClInclude Include="MainMathModule.h" />
     <ClInclude Include="Matrix3x3.h" />

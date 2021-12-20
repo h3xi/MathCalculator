@@ -48,7 +48,7 @@ int CurvedTrapezoidArea() {
 		printf("\033c");
 		printf("Введите границы отрезков: \n");
 		cin >> ElementValue;
-		if (static_cast<int>(ElementValue[0]) > 57 || static_cast<int>(ElementValue[0]) < 48) {
+		if (static_cast<int>(ElementValue[0]) > 57 && static_cast<int>(ElementValue[0]) != 45 || static_cast<int>(ElementValue[0]) < 48 && static_cast<int>(ElementValue[0]) != 45) {
 			printf("Ошибка - введен неправильный символ....\n");
 			system("pause");
 			return 0;
@@ -57,7 +57,7 @@ int CurvedTrapezoidArea() {
 			a = atoi(ElementValue);
 		}
 		cin >> ElementValue;
-		if (static_cast<int>(ElementValue[0]) > 57 || static_cast<int>(ElementValue[0]) < 48) {
+		if (static_cast<int>(ElementValue[0]) > 57 && static_cast<int>(ElementValue[0]) != 45 || static_cast<int>(ElementValue[0]) < 48 && static_cast<int>(ElementValue[0]) != 45) {
 			printf("Ошибка - введен неправильный символ....\n");
 			system("pause");
 			return 0;
@@ -89,7 +89,7 @@ int CurvedTrapezoidArea() {
 		printf("\033c");
 		printf("Введите границы отрезков: \n");
 		cin >> ElementValue;
-		if (static_cast<int>(ElementValue[0]) > 57 || static_cast<int>(ElementValue[0]) < 48) {
+		if (static_cast<int>(ElementValue[0]) > 57 && static_cast<int>(ElementValue[0]) != 45 || static_cast<int>(ElementValue[0]) < 48 && static_cast<int>(ElementValue[0]) != 45) {
 			printf("Ошибка - введен неправильный символ....\n");
 			system("pause");
 			return 0;
@@ -98,7 +98,7 @@ int CurvedTrapezoidArea() {
 			a = atoi(ElementValue);
 		}
 		cin	>> ElementValue;
-		if (static_cast<int>(ElementValue[0]) > 57 || static_cast<int>(ElementValue[0]) < 48) {
+		if (static_cast<int>(ElementValue[0]) > 57 && static_cast<int>(ElementValue[0]) != 45 || static_cast<int>(ElementValue[0]) < 48 && static_cast<int>(ElementValue[0]) != 45) {
 			printf("Ошибка - введен неправильный символ....\n");
 			system("pause");
 			return 0;
@@ -129,7 +129,7 @@ int CurvedTrapezoidArea() {
 		printf("\033c");
 		printf("Введите границы отрезков: \n");
 		cin >> ElementValue;
-		if (static_cast<int>(ElementValue[0]) > 57 || static_cast<int>(ElementValue[0]) < 48) {
+		if (static_cast<int>(ElementValue[0]) > 57 && static_cast<int>(ElementValue[0]) != 45 || static_cast<int>(ElementValue[0]) < 48 && static_cast<int>(ElementValue[0]) != 45) {
 			printf("Ошибка - введен неправильный символ....\n");
 			system("pause");
 			return 0;
@@ -138,7 +138,7 @@ int CurvedTrapezoidArea() {
 			a = atoi(ElementValue);
 		}
 		cin >> ElementValue;
-		if (static_cast<int>(ElementValue[0]) > 57 || static_cast<int>(ElementValue[0]) < 48) {
+		if (static_cast<int>(ElementValue[0]) > 57 && static_cast<int>(ElementValue[0]) != 45 || static_cast<int>(ElementValue[0]) < 48 && static_cast<int>(ElementValue[0]) != 45) {
 			printf("Ошибка - введен неправильный символ....\n");
 			system("pause");
 			return 0;
@@ -169,7 +169,7 @@ int CurvedTrapezoidArea() {
 		printf("\033c");
 		printf("Введите границы отрезков: \n");
 		cin >> ElementValue;
-		if (static_cast<int>(ElementValue[0]) > 57 || static_cast<int>(ElementValue[0]) < 48) {
+		if (static_cast<int>(ElementValue[0]) > 57 && static_cast<int>(ElementValue[0]) != 45 || static_cast<int>(ElementValue[0]) < 48 && static_cast<int>(ElementValue[0]) != 45) {
 			printf("Ошибка - введен неправильный символ....\n");
 			system("pause");
 			return 0;
@@ -178,7 +178,7 @@ int CurvedTrapezoidArea() {
 			a = atoi(ElementValue);
 		}
 		cin >> ElementValue;
-		if (static_cast<int>(ElementValue[0]) > 57 || static_cast<int>(ElementValue[0]) < 48) {
+		if (static_cast<int>(ElementValue[0]) > 57 && static_cast<int>(ElementValue[0]) != 45 || static_cast<int>(ElementValue[0]) < 48 && static_cast<int>(ElementValue[0]) != 45) {
 			printf("Ошибка - введен неправильный символ....\n");
 			system("pause");
 			return 0;

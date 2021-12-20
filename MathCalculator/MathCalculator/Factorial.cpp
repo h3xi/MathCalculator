@@ -10,7 +10,7 @@ int Factorial() {
 	int i, result = 1;
 	printf("¬ведите число, факториал которого будет вычислен: ");
 	cin >> number;
-	if (static_cast<int>(number[0]) > 57 || static_cast<int>(number[0]) < 48) {
+	if (static_cast<int>(number[0]) > 57 && static_cast<int>(number[0]) != 45 || static_cast<int>(number[0]) < 48 && static_cast<int>(number[0]) != 45) {
 		printf("ќшибка - введен неправильный символ...\n");
 		system("pause");
 		return 0;
